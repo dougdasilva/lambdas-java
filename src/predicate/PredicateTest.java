@@ -1,5 +1,7 @@
 package predicate;
 
+import model.Product;
+
 import java.util.function.Predicate;
 
 public class PredicateTest {

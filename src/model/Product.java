@@ -1,9 +1,9 @@
-package predicate;
+package model;
 
 public class Product {
-    final String name;
-    final double price;
-    final double discount;
+    public final String name;
+    public final double price;
+    public final double discount;
 
     public Product(String name, double price, double discount) {
         this.name = name;
