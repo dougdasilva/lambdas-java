@@ -1,4 +1,4 @@
-package first_lambda;
+package model;
 
 public class Multiply implements Calculation{
     @Override
