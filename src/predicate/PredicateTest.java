@@ -11,5 +11,10 @@ public class PredicateTest {
         Product product = new Product("Chocolate",4d,0.05d);
 
         System.out.println(isHigh.test(product));
+
+        //Predicate Composição
+        Predicate<Integer> isPar = number -> number % 2 == 0;
+        Predicate<Integer> isTresDigitos = number -> number >= 100 && number <= 999;
+        System.out.println(isPar.and(isTresDigitos).test(400));
     }
 }
